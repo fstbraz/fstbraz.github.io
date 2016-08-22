@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://fausto.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fausto.xyz/" rel="alternate" type="text/html" /><updated>2016-08-22T17:04:40+01:00</updated><id>http://fausto.xyz/</id><title>Fausto</title><subtitle>In this website I'm sharing the adventures of a Lisbon based web developer and my projects too.</subtitle><entry><title>Laravel Homestead on Mac osx</title><link href="http://fausto.xyz/laravel-homestead-on-mac-osx/" rel="alternate" type="text/html" title="Laravel Homestead on Mac osx" /><published>2016-02-06T00:00:00+00:00</published><updated>2016-02-06T00:00:00+00:00</updated><id>http://fausto.xyz/laravel-homestead-on-mac-osx</id><content type="html" xml:base="http://fausto.xyz/laravel-homestead-on-mac-osx/">&lt;p&gt;With a perfect dev enviroment in mind, I’ve decided to get my hands on &lt;a href=&quot;https://laravel.com/docs/5.1/homestead&quot;&gt;Laravel Homestead&lt;/a&gt;, because it’s a complete and easy configurable LEMP virtual machine that run’s on &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, so what you see next is a little guide how to configure and run a Homestead machine on Mac Osx 10.10.5.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-virtualbox-and-vagrant&quot;&gt;1. Install VirtualBox and Vagrant&lt;/h3&gt;
+
+&lt;p&gt;Before configure Homestead enviroment, we have to install &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot;&gt;VirtualBox&lt;/a&gt; and &lt;a href=&quot;http://www.vagrantup.com/downloads.html&quot;&gt;Vagrant&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;add-the-homestead-vagrant-box&quot;&gt;2. Add the Homestead Vagrant Box&lt;/h3&gt;
+
+&lt;p&gt;After we install VirtualBox and Vagrant, we have to add the Homestead box to Vagrant, for doing that we can start by typing this on the mac osx terminal in the root directory:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;vagrant box add laravel/homestead&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The download has started.
+If it fails you can try with the next command:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;vagrant box add laravel/homestead https://atlas.hashicorp.com/laravel/boxes/homestead&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After the Homestead is cloned in your machine, run the next command from the Homestead directory to create the &lt;code&gt;Homestead.yaml&lt;/code&gt; configuration file, the file will be placed on the ~/.homestead hidden directory:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;bash init.sh&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;configuring-homestead&quot;&gt;3. Configuring Homestead&lt;/h3&gt;
+
+&lt;p&gt;The next step is set the key for the provider in the &lt;code&gt;~/.homestead/Homestead.yaml&lt;/code&gt; (if is not set already automatically), we are using virtualbox, so it must be:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;provider: virtualbox&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We have to configure the shared folders and the sites to:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;folders:
+    - map: ~/file-of-my-projects/Laravel
+      to: /home/vagrant/Code
+
+sites:
+    - map: homestead.app
+      to: /home/vagrant/file-of-my-projects/Laravel/public&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you do any change to &lt;code&gt;sites&lt;/code&gt;, like adding a new site, you should reload the Homestead Nginx configuration by runnig:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;vagrant reload –provision&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;create-the-ssh-key&quot;&gt;4. Create the SSH key&lt;/h3&gt;
+
+&lt;p&gt;In this step we have to provide the path on the &lt;code&gt;Homestead.yaml&lt;/code&gt;, but first we have to create the key:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ssh-keygen -t rsa -C “&lt;strong&gt;yourname&lt;/strong&gt;@homestead”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now we provide the path on &lt;code&gt;Homestead.yaml&lt;/code&gt;, like:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;add-the-nginx-domain-to-your-hosts-file&quot;&gt;5. Add the Nginx domain to your &lt;code&gt;hosts&lt;/code&gt; file:&lt;/h3&gt;
+
+&lt;p&gt;Go to you hosts files, on Mac should be on:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;sudo nano /etc/hosts&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And add this line :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;192.168.10.10  homestead.app&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;botting-the-vagrant-box&quot;&gt;6. Botting the Vagrant box&lt;/h3&gt;
+
+&lt;p&gt;After we edit &lt;code&gt;hosts&lt;/code&gt; and &lt;code&gt;Homestead.yaml&lt;/code&gt;, we go to the Homestead directory and run:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;vagrant up&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vagrant will start, will take a will booting up, if any misconfiguration exists you can destroy the machine running:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;vagrant destroy&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;setting-up-the-laravel-project-inside-the-vagrant-box&quot;&gt;7. Setting up the Laravel project inside the Vagrant box&lt;/h3&gt;
+
+&lt;p&gt;After all is booted up, we can connect to homestead machine doing:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;vagrant ssh&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now we head to our shared directory doing:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;cd file-of-my-projects&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After that, we can pull a fresh project with composer:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;composer create-project –prefer-dist laravel/laravel Laravel&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Go to &lt;code&gt;homestead.app&lt;/code&gt; in your browser, if you could see the the Laravel 5 page, you are ready to start coding your webapp.&lt;/p&gt;</content><category term="laravel" /><category term="homestead" /><category term="vagrant" /><category term="virtual machine" /><summary>With a perfect dev enviroment in mind, I've decided to get my hands on Laravel Homestead.</summary></entry><entry><title>GNR - SG2S</title><link href="http://fausto.xyz/gnr-sg2s/" rel="alternate" type="text/html" title="GNR - SG2S" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/gnr-sg2s</id><content type="html" xml:base="http://fausto.xyz/gnr-sg2s/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/login.jpg&quot; alt=&quot;SG2S Login&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Web app dashboard made for a Portuguese police and army force. The objective was the management of all means, militaries, and military occurrences separated by location and military force hierarchy with separate permissions.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of SG2S&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-3.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-4.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-5.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/screen-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of SG2S&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This application has sensitive and confidential information, so all the information contained in this screenshoots is dummy.&lt;/p&gt;</content><category term="management" /><category term="military" /><category term="system" /><category term="GNR" /><category term="Portugal" /><summary>Planning management and military occurrences system for Portuguese military force (GNR)</summary></entry><entry><title>ENMC</title><link href="http://fausto.xyz/enmc/" rel="alternate" type="text/html" title="ENMC" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/enmc</id><content type="html" xml:base="http://fausto.xyz/enmc/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/login.jpg&quot; alt=&quot;ENMC Login&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Web app dashboard made for the Portuguese fuel market regulator. The objective was the management of all fuel and posts inspections.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of ENMC Dashboard&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-3.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-4.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-5.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/screen-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of ENMC Dashboard&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the online web application &lt;a href=&quot;http://extranet.stepahead.pt/enmc/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="management" /><category term="fuel" /><category term="system" /><category term="ENMC" /><category term="Portugal" /><summary>Inspection management system for the Portuguese fuel market regulator</summary></entry><entry><title>DNS configuration on GitHub Pages with Namecheap</title><link href="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/" rel="alternate" type="text/html" title="DNS configuration on GitHub Pages with Namecheap" /><published>2015-09-18T00:00:00+01:00</published><updated>2015-09-18T00:00:00+01:00</updated><id>http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap</id><content type="html" xml:base="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/">&lt;p&gt;After submitting my site to GitHub and check that everuthing works in &lt;a href=&quot;/&quot;&gt;fstbraz.github.io&lt;/a&gt;, I didn’t know how to point to my recently purchased domain.
+To accomplish that, I did some research hoping that other confused people can configure their &lt;a href=&quot;http://www.namecheap.com/?aff=89940&quot;&gt;Namecheap&lt;/a&gt; on GitHub domain through this post.&lt;/p&gt;
+
+&lt;h3 id=&quot;add-cname-file-in-your-repository&quot;&gt;1. Add CNAME file in your repository.&lt;/h3&gt;
+
+&lt;p&gt;Create a new file on the root. Save with the name &lt;code&gt;CNAME&lt;/code&gt;, without extension.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;yourdomain.com&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;find-your-host-records&quot;&gt;2. Find your Host Records.&lt;/h3&gt;
+
+&lt;p&gt;Sign in on Namecheap, select your domain and go to &lt;strong&gt;All Host Records&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/posts/namecheap-hosts.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dns-configuration&quot;&gt;3. DNS Configuration.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;3.1&lt;/strong&gt;. Configure the @ (used to instance the name of the domain that points to the DNS), &lt;strong&gt;IP Address/URL&lt;/strong&gt; to &lt;code&gt;192.30.252.153&lt;/code&gt; and the &lt;strong&gt;Record Type&lt;/strong&gt; for &lt;code&gt;A (Address)&lt;/code&gt; with &lt;strong&gt;TTL&lt;/strong&gt; .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.2&lt;/strong&gt;. Configure the &lt;strong&gt;www&lt;/strong&gt; (the www subdomain), &lt;strong&gt;IP Address/URL&lt;/strong&gt; for &lt;code&gt;username.github.io.&lt;/code&gt; (with a dot) and the &lt;strong&gt;Record Type&lt;/strong&gt; for &lt;code&gt;CNAME (Alias)&lt;/code&gt; with &lt;strong&gt;TTL&lt;/strong&gt; at &lt;code&gt;1800&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.3&lt;/strong&gt;. In &lt;strong&gt;SUB-DOMAIN SETTINGS&lt;/strong&gt; add one &lt;code&gt;@&lt;/code&gt; on the first field, and duplicate the option from the step 3.1, on &lt;strong&gt;IP Adress/URL&lt;/strong&gt; we can go with &lt;code&gt;192.30.252.154&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/posts/namecheap-hosts-name.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.4&lt;/strong&gt;. Save it, and we are rockin! Don’t forget that this changes can take time, because of the DNS propagation.&lt;/p&gt;
+
+&lt;p&gt;If you have no idea what a DNS is, you can check &lt;a href=&quot;https://support.google.com/a/answer/48090?hl=en&quot;&gt;this&lt;/a&gt; guide from Google.&lt;/p&gt;</content><category term="DNS" /><category term="Namecheap" /><category term="Github Pages" /><summary>After submitting my site to GitHub and check that everything works, I didn't know how to point to my recently purchased domain. To accomplish that, I did some research hoping that other confused people can configure their on GitHub domain through this post.</summary></entry><entry><title>DNS from Namecheap to Cloudflare on Github Pages</title><link href="http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages/" rel="alternate" type="text/html" title="DNS from Namecheap to Cloudflare on Github Pages" /><published>2015-08-29T00:00:00+01:00</published><updated>2015-08-29T00:00:00+01:00</updated><id>http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages</id><content type="html" xml:base="http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages/">&lt;p&gt;Testing my website &lt;a href=&quot;/&quot;&gt;fausto.xyz&lt;/a&gt; on &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Google PageSpeed Insights&lt;/a&gt;, I’ve checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS for &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;CloudFlare&lt;/a&gt; to solve the problem. So, what’s next is the analysis and the solution.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-problem&quot;&gt;1. What is the problem?&lt;/h3&gt;
+
+&lt;p&gt;In a rapid analysis, we could see that exists is a 0.6 second delay on the first request to the server, (DNS Lookup), also that exists a second request.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/posts/webpage-legend.jpg&quot; alt=&quot;Screenshot&quot; /&gt;
+&lt;img src=&quot;http://fausto.xyz/assets/img/posts/webpage-test-1.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If we go deep in the analysis we see that the second request is a &lt;a href=&quot;https://en.wikipedia.org/wiki/HTTP_302&quot;&gt;302 redirect&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;redirects&quot;&gt;2. 302 Redirects&lt;/h3&gt;
+
+&lt;p&gt;After a quick search on Google, I found an &lt;a href=&quot;http://helloanselm.com/2014/github-pages-redirect-performance/&quot;&gt;Analyzing the GitHub Pages Waterfall Chart&lt;/a&gt; article, where &lt;a href=&quot;https://twitter.com/helloanselm/&quot;&gt;@helloanselm&lt;/a&gt; found that &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; redirects sites with a &lt;code&gt;A&lt;/code&gt; DNS record configuration.&lt;/p&gt;
+
+&lt;p&gt;I’m using that configuration on &lt;a href=&quot;http://www.namecheap.com/?aff=89940&quot;&gt;Namecheap&lt;/a&gt;, that doesn’t support the &lt;code&gt;ALIAS&lt;/code&gt; record, suggested on &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/&quot;&gt;Setting up a custom domain with Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My other post completes all the information about this subject. -&amp;gt; &lt;a href=&quot;http://fausto.xyz/DNS-configuration-on-Github-Pages-with-Namecheap.html&quot;&gt;DNS configuration on GitHub Pages with Namecheap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For knowing more about an &lt;code&gt;ALIAS&lt;/code&gt; you could also read -&amp;gt; &lt;a href=&quot;https://iwantmyname.com/blog/2014/01/why-alias-type-records-break-the-internet.html&quot;&gt;Why ALIAS-type DNS Records Break The Internet&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/norbu09&quot;&gt;@norbu09&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;cloudflare-dns-configuration-for-github-pages&quot;&gt;3. CloudFlare DNS configuration for GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;After we get a free account, we have to add our website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/posts/cloudflare-add-site.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After CloudFlare import our DNS records, we have to delete the two &lt;code&gt;A&lt;/code&gt; records, and replace for one &lt;code&gt;CNAME&lt;/code&gt; that points for &lt;strong&gt;username.github.io.&lt;/strong&gt;. Use &lt;strong&gt;@&lt;/strong&gt; to reference the root of the domain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/posts/cloudflare-add-record.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we should have two &lt;code&gt;CNAME&lt;/code&gt; records.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/posts/cloudflare-cname-records.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After we modify the DNS records on CloudFlare, we have to transfer the DNS from Namecheap.&lt;/p&gt;
+
+&lt;h3 id=&quot;transfering-dns-from-namecheap-to-cloudflare&quot;&gt;4. Transfering DNS from Namecheap to CloudFlare&lt;/h3&gt;
+
+&lt;p&gt;We can start doing sign in on our &lt;a href=&quot;http://www.namecheap.com/?aff=89940&quot;&gt;Namecheap&lt;/a&gt; account, select the domain name, after that select the option &lt;strong&gt;Transfer DNS to Webhost.&lt;/strong&gt; .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/posts/namecheap-dns-record.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t forget that the nameservers that I’ve used &lt;strong&gt;gail.ns.cloudflare.com&lt;/strong&gt; and &lt;strong&gt;hugh.ns.cloudflare.com&lt;/strong&gt;, could not be the nameservers that are assigned to your account by CloudFlare.&lt;/p&gt;
+
+&lt;h3 id=&quot;it-works&quot;&gt;5. It works?&lt;/h3&gt;
+
+&lt;p&gt;After some days with the new DNS configurations from CloudFlare, I could say that I’m happy with the result. The 302 redirect is vanish and first byte time delivery is kicking ass.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/posts/webpage-legend.jpg&quot; alt=&quot;Screenshot&quot; /&gt;
+&lt;img src=&quot;http://fausto.xyz/assets/img/posts/webpage-test-2.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t know the way that this affects my website on GitHub Pages, but I know that CloudFlare ships with a DDoS protection, so I only could see advantages.&lt;/p&gt;
+
+&lt;p&gt;If you want to know more about all kind of DNS records, you can find good information in this article-&amp;gt; &lt;a href=&quot;http://support.dnsimple.com/articles/differences-between-a-cname-alias-url/&quot;&gt;Differences between the A, CNAME, ALIAS and URL records.&lt;/a&gt; by &lt;a href=&quot;https://dnsimple.com/&quot;&gt;DNSimple&lt;/a&gt;&lt;/p&gt;</content><category term="DNS" /><category term="Namecheap" /><category term="CloudFlare" /><category term="Github Pages" /><summary>Testing my website I've checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS to solve the problem. So, what's next is the analysis and the solution.</summary></entry></feed>
