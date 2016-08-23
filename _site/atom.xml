@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://fausto.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fausto.xyz/" rel="alternate" type="text/html" /><updated>2016-08-23T22:18:50+01:00</updated><id>http://fausto.xyz/</id><title>Fausto</title><subtitle>In this website I'm sharing the adventures of a Lisbon based web developer and my projects too.</subtitle><entry><title>Laravel Homestead on Mac osx</title><link href="http://fausto.xyz/laravel-homestead-on-mac-osx/" rel="alternate" type="text/html" title="Laravel Homestead on Mac osx" /><published>2016-02-06T00:00:00+00:00</published><updated>2016-02-06T00:00:00+00:00</updated><id>http://fausto.xyz/laravel-homestead-on-mac-osx</id><content type="html" xml:base="http://fausto.xyz/laravel-homestead-on-mac-osx/">&lt;p&gt;With a perfect dev enviroment in mind, I’ve decided to get my hands on &lt;a href=&quot;https://laravel.com/docs/5.1/homestead&quot;&gt;Laravel Homestead&lt;/a&gt;, because it’s a complete and easy configurable LEMP virtual machine that run’s on &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, so what you see next is a little guide how to configure and run a Homestead machine on Mac Osx 10.10.5.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Fausto</title>
+ <link href="http://fausto.xyz/atom.xml" rel="self"/>
+ <link href="http://fausto.xyz"/>
+ <updated>2016-08-23T22:18:50+01:00</updated>
+ <id>http://fausto.xyz</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Laravel Homestead on Mac osx</title>
+   <link href="http://fausto.xyz/laravel-homestead-on-mac-osx/"/>
+   <updated>2016-02-06T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/laravel-homestead-on-mac-osx</id>
+   <content type="html">&lt;p&gt;With a perfect dev enviroment in mind, I’ve decided to get my hands on &lt;a href=&quot;https://laravel.com/docs/5.1/homestead&quot;&gt;Laravel Homestead&lt;/a&gt;, because it’s a complete and easy configurable LEMP virtual machine that run’s on &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, so what you see next is a little guide how to configure and run a Homestead machine on Mac Osx 10.10.5.&lt;/p&gt;
 
 &lt;h3 id=&quot;install-virtualbox-and-vagrant&quot;&gt;1. Install VirtualBox and Vagrant&lt;/h3&gt;
 
@@ -112,7 +131,16 @@ If it fails you can try with the next command:&lt;/p&gt;
   &lt;p&gt;composer create-project –prefer-dist laravel/laravel Laravel&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Go to &lt;code class=&quot;highlighter-rouge&quot;&gt;homestead.app&lt;/code&gt; in your browser, if you could see the the Laravel 5 page, you are ready to start coding your webapp.&lt;/p&gt;</content><category term="laravel" /><category term="homestead" /><category term="vagrant" /><category term="virtual machine" /><summary>With a perfect dev enviroment in mind, I've decided to get my hands on Laravel Homestead.</summary></entry><entry><title>GNR - SG2S</title><link href="http://fausto.xyz/gnr-sg2s/" rel="alternate" type="text/html" title="GNR - SG2S" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/gnr-sg2s</id><content type="html" xml:base="http://fausto.xyz/gnr-sg2s/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/login.jpg&quot; alt=&quot;SG2S Login&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Go to &lt;code class=&quot;highlighter-rouge&quot;&gt;homestead.app&lt;/code&gt; in your browser, if you could see the the Laravel 5 page, you are ready to start coding your webapp.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GNR - SG2S</title>
+   <link href="http://fausto.xyz/gnr-sg2s/"/>
+   <updated>2015-12-01T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/gnr-sg2s</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/login.jpg&quot; alt=&quot;SG2S Login&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Web app dashboard made for a Portuguese police and army force. The objective was the management of all means, militaries, and military occurrences separated by location and military force hierarchy with separate permissions.&lt;/p&gt;
 
@@ -142,7 +170,16 @@ If it fails you can try with the next command:&lt;/p&gt;
     &lt;figcaption&gt;Screenshots of SG2S&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;This application has sensitive and confidential information, so all the information contained in this screenshoots is dummy.&lt;/p&gt;</content><category term="management" /><category term="military" /><category term="system" /><category term="GNR" /><category term="Portugal" /><summary>Planning management and military occurrences system for Portuguese military force (GNR)</summary></entry><entry><title>ENMC</title><link href="http://fausto.xyz/enmc/" rel="alternate" type="text/html" title="ENMC" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/enmc</id><content type="html" xml:base="http://fausto.xyz/enmc/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/login.jpg&quot; alt=&quot;ENMC Login&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This application has sensitive and confidential information, so all the information contained in this screenshoots is dummy.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ENMC</title>
+   <link href="http://fausto.xyz/enmc/"/>
+   <updated>2015-12-01T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/enmc</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/login.jpg&quot; alt=&quot;ENMC Login&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Web app dashboard made for the Portuguese fuel market regulator. The objective was the management of all fuel and posts inspections.&lt;/p&gt;
 
@@ -172,7 +209,16 @@ If it fails you can try with the next command:&lt;/p&gt;
     &lt;figcaption&gt;Screenshots of ENMC Dashboard&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;You can find the online web application &lt;a href=&quot;http://extranet.stepahead.pt/enmc/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="management" /><category term="fuel" /><category term="system" /><category term="ENMC" /><category term="Portugal" /><summary>Inspection management system for the Portuguese fuel market regulator</summary></entry><entry><title>DNS configuration on GitHub Pages with Namecheap</title><link href="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/" rel="alternate" type="text/html" title="DNS configuration on GitHub Pages with Namecheap" /><published>2015-09-18T00:00:00+01:00</published><updated>2015-09-18T00:00:00+01:00</updated><id>http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap</id><content type="html" xml:base="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/">&lt;p&gt;After submitting my site to GitHub and check that everuthing works in &lt;a href=&quot;/&quot;&gt;fstbraz.github.io&lt;/a&gt;, I didn’t know how to point to my recently purchased domain.
+&lt;p&gt;You can find the online web application &lt;a href=&quot;http://extranet.stepahead.pt/enmc/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>DNS configuration on GitHub Pages with Namecheap</title>
+   <link href="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/"/>
+   <updated>2015-09-18T00:00:00+01:00</updated>
+   <id>http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap</id>
+   <content type="html">&lt;p&gt;After submitting my site to GitHub and check that everuthing works in &lt;a href=&quot;/&quot;&gt;fstbraz.github.io&lt;/a&gt;, I didn’t know how to point to my recently purchased domain.
 To accomplish that, I did some research hoping that other confused people can configure their &lt;a href=&quot;http://www.namecheap.com/?aff=89940&quot;&gt;Namecheap&lt;/a&gt; on GitHub domain through this post.&lt;/p&gt;
 
 &lt;h3 id=&quot;add-cname-file-in-your-repository&quot;&gt;1. Add CNAME file in your repository.&lt;/h3&gt;
@@ -201,7 +247,16 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;&lt;strong&gt;3.4&lt;/strong&gt;. Save it, and we are rockin! Don’t forget that this changes can take time, because of the DNS propagation.&lt;/p&gt;
 
-&lt;p&gt;If you have no idea what a DNS is, you can check &lt;a href=&quot;https://support.google.com/a/answer/48090?hl=en&quot;&gt;this&lt;/a&gt; guide from Google.&lt;/p&gt;</content><category term="DNS" /><category term="Namecheap" /><category term="Github Pages" /><summary>After submitting my site to GitHub and check that everything works, I didn't know how to point to my recently purchased domain. To accomplish that, I did some research hoping that other confused people can configure their on GitHub domain through this post.</summary></entry><entry><title>DNS from Namecheap to Cloudflare on Github Pages</title><link href="http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages/" rel="alternate" type="text/html" title="DNS from Namecheap to Cloudflare on Github Pages" /><published>2015-08-29T00:00:00+01:00</published><updated>2015-08-29T00:00:00+01:00</updated><id>http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages</id><content type="html" xml:base="http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages/">&lt;p&gt;Testing my website &lt;a href=&quot;/&quot;&gt;fausto.xyz&lt;/a&gt; on &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Google PageSpeed Insights&lt;/a&gt;, I’ve checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS for &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;CloudFlare&lt;/a&gt; to solve the problem. So, what’s next is the analysis and the solution.&lt;/p&gt;
+&lt;p&gt;If you have no idea what a DNS is, you can check &lt;a href=&quot;https://support.google.com/a/answer/48090?hl=en&quot;&gt;this&lt;/a&gt; guide from Google.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>DNS from Namecheap to Cloudflare on Github Pages</title>
+   <link href="http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages/"/>
+   <updated>2015-08-29T00:00:00+01:00</updated>
+   <id>http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages</id>
+   <content type="html">&lt;p&gt;Testing my website &lt;a href=&quot;/&quot;&gt;fausto.xyz&lt;/a&gt; on &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Google PageSpeed Insights&lt;/a&gt;, I’ve checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS for &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;CloudFlare&lt;/a&gt; to solve the problem. So, what’s next is the analysis and the solution.&lt;/p&gt;
 
 &lt;h3 id=&quot;what-is-the-problem&quot;&gt;1. What is the problem?&lt;/h3&gt;
 
@@ -255,4 +310,9 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;I don’t know the way that this affects my website on GitHub Pages, but I know that CloudFlare ships with a DDoS protection, so I only could see advantages.&lt;/p&gt;
 
-&lt;p&gt;If you want to know more about all kind of DNS records, you can find good information in this article-&amp;gt; &lt;a href=&quot;http://support.dnsimple.com/articles/differences-between-a-cname-alias-url/&quot;&gt;Differences between the A, CNAME, ALIAS and URL records.&lt;/a&gt; by &lt;a href=&quot;https://dnsimple.com/&quot;&gt;DNSimple&lt;/a&gt;&lt;/p&gt;</content><category term="DNS" /><category term="Namecheap" /><category term="CloudFlare" /><category term="Github Pages" /><summary>Testing my website I've checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS to solve the problem. So, what's next is the analysis and the solution.</summary></entry></feed>
+&lt;p&gt;If you want to know more about all kind of DNS records, you can find good information in this article-&amp;gt; &lt;a href=&quot;http://support.dnsimple.com/articles/differences-between-a-cname-alias-url/&quot;&gt;Differences between the A, CNAME, ALIAS and URL records.&lt;/a&gt; by &lt;a href=&quot;https://dnsimple.com/&quot;&gt;DNSimple&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

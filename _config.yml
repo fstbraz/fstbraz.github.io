@@ -14,7 +14,7 @@ url:                http://fausto.xyz
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
-highlighter:        grey
+highlighter:        rouge
 kramdown:
   auto_ids:         true
   footnote_nr:      1
