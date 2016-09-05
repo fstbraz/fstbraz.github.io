@@ -2,7 +2,7 @@
 layout: post
 title:  "Prestarte"
 date: 2015-12-01
-excerpt: "Website for an art auction company"
+excerpt: "Portuguese website and catalog for an art auction company"
 project: true
 tag:
 - website 
@@ -15,7 +15,7 @@ comments: true
 
 ![SG2S Login]({{ site.url }}/assets/img/projects/prestarte/login.jpg)     
      
-Website maded for a portuguese art auction company called Prestarte.
+Portuguese website made for an art auction company called Prestarte, the main objective was promoting the products and services that the enterprise provides.
 
 ## Preview
 
