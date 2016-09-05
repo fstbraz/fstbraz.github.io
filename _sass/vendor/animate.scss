@@ -67,7 +67,7 @@
   }
 }
 
-.{
+.fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
@@ -231,19 +231,4 @@
 .rotateIn {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
-}
-
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale3d(.3, .3, .3);
-  }
-
-  50% {
-    opacity: 1;
-  }
-}
-
-.zoomIn {
-  animation-name: zoomIn;
 }
