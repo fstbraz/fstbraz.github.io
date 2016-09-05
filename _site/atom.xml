@@ -4,7 +4,7 @@
  <title>Fausto</title>
  <link href="http://fausto.xyz/atom.xml" rel="self"/>
  <link href="http://fausto.xyz"/>
- <updated>2016-08-23T22:18:50+01:00</updated>
+ <updated>2016-09-05T17:44:51+01:00</updated>
  <id>http://fausto.xyz</id>
  <author>
    <name></name>
@@ -136,10 +136,88 @@ If it fails you can try with the next command:&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>GNR - SG2S</title>
-   <link href="http://fausto.xyz/gnr-sg2s/"/>
+   <title>Rangel - Custom critical</title>
+   <link href="http://fausto.xyz/rangel/"/>
    <updated>2015-12-01T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/gnr-sg2s</id>
+   <id>http://fausto.xyz/rangel</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/login.jpg&quot; alt=&quot;Rangel Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Web app dashboard made for one Portuguese international freight company. The objective was build a management and bidding system that can share all the transport opportunites brought from a intern enterprise team to take the maximum profit for the company.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Rangel Dashboard&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-3.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-4.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-5.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Rangel Dashboard&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the online web application &lt;a href=&quot;http://critical.rangel.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Prestarte - Website</title>
+   <link href="http://fausto.xyz/prestarte/"/>
+   <updated>2015-12-01T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/prestarte</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/login.jpg&quot; alt=&quot;Prestarte&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Portuguese website made for an art auction company called Prestarte, the main objective was promoting the products and services that the enterprise provides.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Prestarte&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-3.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-4.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-5.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Prestarte&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can fin the online website &lt;a href=&quot;http://prestarte.pt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GNR - SG2S</title>
+   <link href="http://fausto.xyz/gnr/"/>
+   <updated>2015-12-01T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/gnr</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/login.jpg&quot; alt=&quot;SG2S Login&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Web app dashboard made for a Portuguese police and army force. The objective was the management of all means, militaries, and military occurrences separated by location and military force hierarchy with separate permissions.&lt;/p&gt;
@@ -175,13 +253,13 @@ If it fails you can try with the next command:&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>ENMC</title>
+   <title>ENMC - Fuel inspections</title>
    <link href="http://fausto.xyz/enmc/"/>
    <updated>2015-12-01T00:00:00+00:00</updated>
    <id>http://fausto.xyz/enmc</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/login.jpg&quot; alt=&quot;ENMC Login&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Web app dashboard made for the Portuguese fuel market regulator. The objective was the management of all fuel and posts inspections.&lt;/p&gt;
+&lt;p&gt;Web app dashboard made for the Portuguese fuel market regulator. The objective was the management of all fuel and posts inspections&lt;/p&gt;
 
 &lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
 
@@ -210,6 +288,33 @@ If it fails you can try with the next command:&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;You can find the online web application &lt;a href=&quot;http://extranet.stepahead.pt/enmc/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Caress natura - Landing page</title>
+   <link href="http://fausto.xyz/caress-natura/"/>
+   <updated>2015-11-20T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/caress-natura</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/login.jpg&quot; alt=&quot;Caress Natura landing page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing Page offering health and fitness consult from a Portuguese brand.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/caress/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/caress/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/caress/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Caress&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://oferta.caressnatura.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -311,6 +416,162 @@ To accomplish that, I did some research hoping that other confused people can co
 &lt;p&gt;I don’t know the way that this affects my website on GitHub Pages, but I know that CloudFlare ships with a DDoS protection, so I only could see advantages.&lt;/p&gt;
 
 &lt;p&gt;If you want to know more about all kind of DNS records, you can find good information in this article-&amp;gt; &lt;a href=&quot;http://support.dnsimple.com/articles/differences-between-a-cname-alias-url/&quot;&gt;Differences between the A, CNAME, ALIAS and URL records.&lt;/a&gt; by &lt;a href=&quot;https://dnsimple.com/&quot;&gt;DNSimple&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Imf - Landing page</title>
+   <link href="http://fausto.xyz/imf/"/>
+   <updated>2015-06-20T00:00:00+01:00</updated>
+   <id>http://fausto.xyz/imf</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/login.jpg&quot; alt=&quot;Imf landing page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing page made for one International spanish business school, that have schools in Portugal.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/imf/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/imf/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/imf/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Imf&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-imf.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Galileu - Landing page</title>
+   <link href="http://fausto.xyz/galileu/"/>
+   <updated>2015-03-15T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/galileu</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/login.jpg&quot; alt=&quot;Galileu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing page made for one course of a portuguese education center called Galileu.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Galileu&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-redes-sistemas.galileu.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chery - Landing page</title>
+   <link href="http://fausto.xyz/chery/"/>
+   <updated>2015-01-12T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/chery</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/chery/login.jpg&quot; alt=&quot;Chery&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing Page to get a free test drive for a Brasilian automotive industry brand.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/chery/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/chery/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/chery/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/chery/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/chery/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/chery/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Chery Landing Page&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cherydrivemotion.com.br/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>EDEA - Landing page</title>
+   <link href="http://fausto.xyz/edea/"/>
+   <updated>2014-10-01T00:00:00+01:00</updated>
+   <id>http://fausto.xyz/edea</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/edea/login.jpg&quot; alt=&quot;EDEA&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing page made for one course of a portuguese education center called EDEA.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/edea/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/edea/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/edea/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/edea/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/edea/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/edea/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of EDEA Landing Page&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos.edea.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Private Sport Shop - Landing page</title>
+   <link href="http://fausto.xyz/private-sport-shop/"/>
+   <updated>2014-06-23T00:00:00+01:00</updated>
+   <id>http://fausto.xyz/private-sport-shop</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/private/login.jpg&quot; alt=&quot;Private Sport Shop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing page made for one French private sport shop website.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/private/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/private/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/private/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/private/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/private/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/private/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Private Sport Shop&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://offer-privatesportshop.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Uzo - Landing page</title>
+   <link href="http://fausto.xyz/uzo/"/>
+   <updated>2014-02-20T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/uzo</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/uzo/login.jpg&quot; alt=&quot;Uzo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing page made for one brand of the main Portuguese phone companies.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of UZO Landing Page&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://uzo.cartaogratis.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

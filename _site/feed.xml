@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://fausto.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fausto.xyz/" rel="alternate" type="text/html" /><updated>2016-08-23T22:18:50+01:00</updated><id>http://fausto.xyz/</id><title>Fausto</title><subtitle>In this website I'm sharing the adventures of a Lisbon based web developer and my projects too.</subtitle><entry><title>Laravel Homestead on Mac osx</title><link href="http://fausto.xyz/laravel-homestead-on-mac-osx/" rel="alternate" type="text/html" title="Laravel Homestead on Mac osx" /><published>2016-02-06T00:00:00+00:00</published><updated>2016-02-06T00:00:00+00:00</updated><id>http://fausto.xyz/laravel-homestead-on-mac-osx</id><content type="html" xml:base="http://fausto.xyz/laravel-homestead-on-mac-osx/">&lt;p&gt;With a perfect dev enviroment in mind, I’ve decided to get my hands on &lt;a href=&quot;https://laravel.com/docs/5.1/homestead&quot;&gt;Laravel Homestead&lt;/a&gt;, because it’s a complete and easy configurable LEMP virtual machine that run’s on &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, so what you see next is a little guide how to configure and run a Homestead machine on Mac Osx 10.10.5.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://fausto.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fausto.xyz/" rel="alternate" type="text/html" /><updated>2016-09-05T17:44:51+01:00</updated><id>http://fausto.xyz/</id><title>Fausto</title><subtitle>In this website I'm sharing the adventures of a Lisbon based web developer and my projects too.</subtitle><entry><title>Laravel Homestead on Mac osx</title><link href="http://fausto.xyz/laravel-homestead-on-mac-osx/" rel="alternate" type="text/html" title="Laravel Homestead on Mac osx" /><published>2016-02-06T00:00:00+00:00</published><updated>2016-02-06T00:00:00+00:00</updated><id>http://fausto.xyz/laravel-homestead-on-mac-osx</id><content type="html" xml:base="http://fausto.xyz/laravel-homestead-on-mac-osx/">&lt;p&gt;With a perfect dev enviroment in mind, I’ve decided to get my hands on &lt;a href=&quot;https://laravel.com/docs/5.1/homestead&quot;&gt;Laravel Homestead&lt;/a&gt;, because it’s a complete and easy configurable LEMP virtual machine that run’s on &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, so what you see next is a little guide how to configure and run a Homestead machine on Mac Osx 10.10.5.&lt;/p&gt;
 
 &lt;h3 id=&quot;install-virtualbox-and-vagrant&quot;&gt;1. Install VirtualBox and Vagrant&lt;/h3&gt;
 
@@ -112,7 +112,67 @@ If it fails you can try with the next command:&lt;/p&gt;
   &lt;p&gt;composer create-project –prefer-dist laravel/laravel Laravel&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Go to &lt;code class=&quot;highlighter-rouge&quot;&gt;homestead.app&lt;/code&gt; in your browser, if you could see the the Laravel 5 page, you are ready to start coding your webapp.&lt;/p&gt;</content><category term="laravel" /><category term="homestead" /><category term="vagrant" /><category term="virtual machine" /><summary>With a perfect dev enviroment in mind, I've decided to get my hands on Laravel Homestead.</summary></entry><entry><title>GNR - SG2S</title><link href="http://fausto.xyz/gnr-sg2s/" rel="alternate" type="text/html" title="GNR - SG2S" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/gnr-sg2s</id><content type="html" xml:base="http://fausto.xyz/gnr-sg2s/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/login.jpg&quot; alt=&quot;SG2S Login&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Go to &lt;code class=&quot;highlighter-rouge&quot;&gt;homestead.app&lt;/code&gt; in your browser, if you could see the the Laravel 5 page, you are ready to start coding your webapp.&lt;/p&gt;</content><category term="laravel" /><category term="homestead" /><category term="vagrant" /><category term="virtual machine" /><summary>With a perfect dev enviroment in mind, I've decided to get my hands on Laravel Homestead.</summary></entry><entry><title>Rangel - Custom critical</title><link href="http://fausto.xyz/rangel/" rel="alternate" type="text/html" title="Rangel - Custom critical" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/rangel</id><content type="html" xml:base="http://fausto.xyz/rangel/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/login.jpg&quot; alt=&quot;Rangel Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Web app dashboard made for one Portuguese international freight company. The objective was build a management and bidding system that can share all the transport opportunites brought from a intern enterprise team to take the maximum profit for the company.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Rangel Dashboard&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-3.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-4.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-5.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/screen-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Rangel Dashboard&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the online web application &lt;a href=&quot;http://critical.rangel.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="management" /><category term="bidding" /><category term="system" /><category term="Rangel" /><category term="Portugal" /><category term="transports" /><category term="freight" /><summary>Freight and transportation opportunites bidding web application for a international Portuguese company</summary></entry><entry><title>Prestarte - Website</title><link href="http://fausto.xyz/prestarte/" rel="alternate" type="text/html" title="Prestarte - Website" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/prestarte</id><content type="html" xml:base="http://fausto.xyz/prestarte/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/login.jpg&quot; alt=&quot;Prestarte&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Portuguese website made for an art auction company called Prestarte, the main objective was promoting the products and services that the enterprise provides.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Prestarte&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-3.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-4.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-5.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/screen-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Prestarte&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can fin the online website &lt;a href=&quot;http://prestarte.pt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="website" /><category term="responsive" /><category term="auction" /><category term="Prestarte" /><category term="Portugal" /><summary>Portuguese website and catalog for an art auction company</summary></entry><entry><title>GNR - SG2S</title><link href="http://fausto.xyz/gnr/" rel="alternate" type="text/html" title="GNR - SG2S" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/gnr</id><content type="html" xml:base="http://fausto.xyz/gnr/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/login.jpg&quot; alt=&quot;SG2S Login&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Web app dashboard made for a Portuguese police and army force. The objective was the management of all means, militaries, and military occurrences separated by location and military force hierarchy with separate permissions.&lt;/p&gt;
 
@@ -142,9 +202,9 @@ If it fails you can try with the next command:&lt;/p&gt;
     &lt;figcaption&gt;Screenshots of SG2S&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;This application has sensitive and confidential information, so all the information contained in this screenshoots is dummy.&lt;/p&gt;</content><category term="management" /><category term="military" /><category term="system" /><category term="GNR" /><category term="Portugal" /><summary>Planning management and military occurrences system for Portuguese military force (GNR)</summary></entry><entry><title>ENMC</title><link href="http://fausto.xyz/enmc/" rel="alternate" type="text/html" title="ENMC" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/enmc</id><content type="html" xml:base="http://fausto.xyz/enmc/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/login.jpg&quot; alt=&quot;ENMC Login&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This application has sensitive and confidential information, so all the information contained in this screenshoots is dummy.&lt;/p&gt;</content><category term="management" /><category term="military" /><category term="system" /><category term="GNR" /><category term="Portugal" /><summary>Planning management and military occurrences system for Portuguese military force (GNR)</summary></entry><entry><title>ENMC - Fuel inspections</title><link href="http://fausto.xyz/enmc/" rel="alternate" type="text/html" title="ENMC - Fuel inspections" /><published>2015-12-01T00:00:00+00:00</published><updated>2015-12-01T00:00:00+00:00</updated><id>http://fausto.xyz/enmc</id><content type="html" xml:base="http://fausto.xyz/enmc/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/login.jpg&quot; alt=&quot;ENMC Login&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Web app dashboard made for the Portuguese fuel market regulator. The objective was the management of all fuel and posts inspections.&lt;/p&gt;
+&lt;p&gt;Web app dashboard made for the Portuguese fuel market regulator. The objective was the management of all fuel and posts inspections&lt;/p&gt;
 
 &lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
 
@@ -172,7 +232,24 @@ If it fails you can try with the next command:&lt;/p&gt;
     &lt;figcaption&gt;Screenshots of ENMC Dashboard&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;You can find the online web application &lt;a href=&quot;http://extranet.stepahead.pt/enmc/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="management" /><category term="fuel" /><category term="system" /><category term="ENMC" /><category term="Portugal" /><summary>Inspection management system for the Portuguese fuel market regulator</summary></entry><entry><title>DNS configuration on GitHub Pages with Namecheap</title><link href="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/" rel="alternate" type="text/html" title="DNS configuration on GitHub Pages with Namecheap" /><published>2015-09-18T00:00:00+01:00</published><updated>2015-09-18T00:00:00+01:00</updated><id>http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap</id><content type="html" xml:base="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/">&lt;p&gt;After submitting my site to GitHub and check that everuthing works in &lt;a href=&quot;/&quot;&gt;fstbraz.github.io&lt;/a&gt;, I didn’t know how to point to my recently purchased domain.
+&lt;p&gt;You can find the online web application &lt;a href=&quot;http://extranet.stepahead.pt/enmc/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="management" /><category term="fuel" /><category term="system" /><category term="ENMC" /><category term="Portugal" /><summary>Inspection management system for the Portuguese fuel market regulator</summary></entry><entry><title>Caress natura - Landing page</title><link href="http://fausto.xyz/caress-natura/" rel="alternate" type="text/html" title="Caress natura - Landing page" /><published>2015-11-20T00:00:00+00:00</published><updated>2015-11-20T00:00:00+00:00</updated><id>http://fausto.xyz/caress-natura</id><content type="html" xml:base="http://fausto.xyz/caress-natura/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/login.jpg&quot; alt=&quot;Caress Natura landing page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing Page offering health and fitness consult from a Portuguese brand.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/caress/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/caress/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/caress/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Caress&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://oferta.caressnatura.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="landing page" /><category term="health" /><category term="Caress Natura" /><category term="Portugal" /><summary>Landing Page for a Portuguese health and fitness brand</summary></entry><entry><title>DNS configuration on GitHub Pages with Namecheap</title><link href="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/" rel="alternate" type="text/html" title="DNS configuration on GitHub Pages with Namecheap" /><published>2015-09-18T00:00:00+01:00</published><updated>2015-09-18T00:00:00+01:00</updated><id>http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap</id><content type="html" xml:base="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/">&lt;p&gt;After submitting my site to GitHub and check that everuthing works in &lt;a href=&quot;/&quot;&gt;fstbraz.github.io&lt;/a&gt;, I didn’t know how to point to my recently purchased domain.
 To accomplish that, I did some research hoping that other confused people can configure their &lt;a href=&quot;http://www.namecheap.com/?aff=89940&quot;&gt;Namecheap&lt;/a&gt; on GitHub domain through this post.&lt;/p&gt;
 
 &lt;h3 id=&quot;add-cname-file-in-your-repository&quot;&gt;1. Add CNAME file in your repository.&lt;/h3&gt;
@@ -255,4 +332,38 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;I don’t know the way that this affects my website on GitHub Pages, but I know that CloudFlare ships with a DDoS protection, so I only could see advantages.&lt;/p&gt;
 
-&lt;p&gt;If you want to know more about all kind of DNS records, you can find good information in this article-&amp;gt; &lt;a href=&quot;http://support.dnsimple.com/articles/differences-between-a-cname-alias-url/&quot;&gt;Differences between the A, CNAME, ALIAS and URL records.&lt;/a&gt; by &lt;a href=&quot;https://dnsimple.com/&quot;&gt;DNSimple&lt;/a&gt;&lt;/p&gt;</content><category term="DNS" /><category term="Namecheap" /><category term="CloudFlare" /><category term="Github Pages" /><summary>Testing my website I've checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS to solve the problem. So, what's next is the analysis and the solution.</summary></entry></feed>
+&lt;p&gt;If you want to know more about all kind of DNS records, you can find good information in this article-&amp;gt; &lt;a href=&quot;http://support.dnsimple.com/articles/differences-between-a-cname-alias-url/&quot;&gt;Differences between the A, CNAME, ALIAS and URL records.&lt;/a&gt; by &lt;a href=&quot;https://dnsimple.com/&quot;&gt;DNSimple&lt;/a&gt;&lt;/p&gt;</content><category term="DNS" /><category term="Namecheap" /><category term="CloudFlare" /><category term="Github Pages" /><summary>Testing my website I've checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS to solve the problem. So, what's next is the analysis and the solution.</summary></entry><entry><title>Imf - Landing page</title><link href="http://fausto.xyz/imf/" rel="alternate" type="text/html" title="Imf - Landing page" /><published>2015-06-20T00:00:00+01:00</published><updated>2015-06-20T00:00:00+01:00</updated><id>http://fausto.xyz/imf</id><content type="html" xml:base="http://fausto.xyz/imf/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/login.jpg&quot; alt=&quot;Imf landing page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing page made for one International spanish business school, that have schools in Portugal.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/imf/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/imf/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/imf/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Imf&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-imf.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="landing page" /><category term="Imf" /><category term="Portugal" /><summary>Landing Page for a Spanish business School</summary></entry><entry><title>Galileu - Landing page</title><link href="http://fausto.xyz/galileu/" rel="alternate" type="text/html" title="Galileu - Landing page" /><published>2015-03-15T00:00:00+00:00</published><updated>2015-03-15T00:00:00+00:00</updated><id>http://fausto.xyz/galileu</id><content type="html" xml:base="http://fausto.xyz/galileu/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/login.jpg&quot; alt=&quot;Galileu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing page made for one course of a portuguese education center called Galileu.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Galileu&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-redes-sistemas.galileu.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="landing page" /><category term="education" /><category term="Galileu" /><category term="Portugal" /><summary>Landing Page for a portuguese education center</summary></entry></feed>
