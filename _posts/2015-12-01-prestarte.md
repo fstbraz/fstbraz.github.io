@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Prestarte"
+title:  "Prestarte - Website"
 date: 2015-12-01
 excerpt: "Portuguese website and catalog for an art auction company"
 project: true
