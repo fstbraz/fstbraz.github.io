@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Private Sport Shop - Landing page"
-date: 2014-02-20
+date: 2014-06-23
 excerpt: "Landing Page for a French private sales website"
 project: true
 tag:
@@ -12,7 +12,7 @@ tag:
 comments: true
 ---
 
-![Uzo]({{ site.url }}/assets/img/projects/private/login.jpg)     
+![Private Sport Shop]({{ site.url }}/assets/img/projects/private/login.jpg)     
      
  Landing page made for one French private sport shop website.
 
