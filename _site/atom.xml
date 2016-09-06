@@ -4,7 +4,7 @@
  <title>Fausto</title>
  <link href="http://fausto.xyz/atom.xml" rel="self"/>
  <link href="http://fausto.xyz"/>
- <updated>2016-09-06T17:13:22+01:00</updated>
+ <updated>2016-09-06T17:39:08+01:00</updated>
  <id>http://fausto.xyz</id>
  <author>
    <name></name>
@@ -424,7 +424,7 @@ To accomplish that, I did some research hoping that other confused people can co
    <link href="http://fausto.xyz/imf/"/>
    <updated>2015-06-20T00:00:00+01:00</updated>
    <id>http://fausto.xyz/imf</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/login.jpg&quot; alt=&quot;Imf landing page&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/login.jpg&quot; alt=&quot;Imf landing page&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one International spanish business school, that have schools in Portugal.&lt;/p&gt;
 
@@ -450,7 +450,7 @@ To accomplish that, I did some research hoping that other confused people can co
    <link href="http://fausto.xyz/galileu/"/>
    <updated>2015-03-15T00:00:00+00:00</updated>
    <id>http://fausto.xyz/galileu</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/login.jpg&quot; alt=&quot;Galileu&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/login.jpg&quot; alt=&quot;Galileu&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one course of a portuguese education center called Galileu.&lt;/p&gt;
 
@@ -476,7 +476,7 @@ To accomplish that, I did some research hoping that other confused people can co
    <link href="http://fausto.xyz/chery/"/>
    <updated>2015-01-12T00:00:00+00:00</updated>
    <id>http://fausto.xyz/chery</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/chery/login.jpg&quot; alt=&quot;Chery&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/chery/login.jpg&quot; alt=&quot;Chery&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing Page to get a free test drive for a Brasilian automotive industry brand.&lt;/p&gt;
 
@@ -502,7 +502,7 @@ To accomplish that, I did some research hoping that other confused people can co
    <link href="http://fausto.xyz/showroomprive/"/>
    <updated>2015-01-06T00:00:00+00:00</updated>
    <id>http://fausto.xyz/showroomprive</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/showroom/login.jpg&quot; alt=&quot;Uzo&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/showroom/login.jpg&quot; alt=&quot;Uzo&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one of main fashion private sales site.&lt;/p&gt;
 
@@ -528,7 +528,7 @@ To accomplish that, I did some research hoping that other confused people can co
    <link href="http://fausto.xyz/edea/"/>
    <updated>2014-10-01T00:00:00+01:00</updated>
    <id>http://fausto.xyz/edea</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/edea/login.jpg&quot; alt=&quot;EDEA&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/edea/login.jpg&quot; alt=&quot;EDEA&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one course of a portuguese education center called EDEA.&lt;/p&gt;
 
@@ -554,7 +554,7 @@ To accomplish that, I did some research hoping that other confused people can co
    <link href="http://fausto.xyz/private-sport-shop/"/>
    <updated>2014-06-23T00:00:00+01:00</updated>
    <id>http://fausto.xyz/private-sport-shop</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/private/login.jpg&quot; alt=&quot;Private Sport Shop&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/private/login.jpg&quot; alt=&quot;Private Sport Shop&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one French private sport shop website.&lt;/p&gt;
 
@@ -580,7 +580,7 @@ To accomplish that, I did some research hoping that other confused people can co
    <link href="http://fausto.xyz/ispa/"/>
    <updated>2014-03-15T00:00:00+00:00</updated>
    <id>http://fausto.xyz/ispa</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/ispa/login.jpg&quot; alt=&quot;Uzo&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/ispa/login.jpg&quot; alt=&quot;Uzo&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one main psychology university in Portugal.&lt;/p&gt;
 

@@ -1,6 +1,6 @@
 ---
 layout: project
 title: All Projects
-excerpt: "A List of Projects"
+excerpt: "List of web development projects by Fausto Braz"
 comments: false
 ---

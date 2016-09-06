@@ -12,7 +12,7 @@ tag:
 comments: true
 ---
 
-![Uzo]({{ site.url }}/assets/img/projects/showroom/login.jpg)     
+![Uzo]({{ site.url }}/assets/img/projects/showroom/login.jpg){: .login-img }      
      
  Landing page made for one of main fashion private sales site.
 
@@ -24,5 +24,7 @@ comments: true
 	{{ site.url }}/assets/img/projects/showroom/screen-2.jpg
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Showroomprive Landing Page" cols=3 %}
+
+
        
 You can find the landing page [here](http://outletmoda.pt/)

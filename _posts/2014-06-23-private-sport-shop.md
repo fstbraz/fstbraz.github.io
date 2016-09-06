@@ -12,7 +12,7 @@ tag:
 comments: true
 ---
 
-![Private Sport Shop]({{ site.url }}/assets/img/projects/private/login.jpg)     
+![Private Sport Shop]({{ site.url }}/assets/img/projects/private/login.jpg){: .login-img }      
      
  Landing page made for one French private sport shop website.
 
