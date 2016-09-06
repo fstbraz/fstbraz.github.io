@@ -4,7 +4,7 @@
  <title>Fausto</title>
  <link href="http://fausto.xyz/atom.xml" rel="self"/>
  <link href="http://fausto.xyz"/>
- <updated>2016-09-05T17:44:51+01:00</updated>
+ <updated>2016-09-06T17:13:22+01:00</updated>
  <id>http://fausto.xyz</id>
  <author>
    <name></name>
@@ -498,6 +498,32 @@ To accomplish that, I did some research hoping that other confused people can co
  </entry>
  
  <entry>
+   <title>Showroomprive.com - Landing page</title>
+   <link href="http://fausto.xyz/showroomprive/"/>
+   <updated>2015-01-06T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/showroomprive</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/showroom/login.jpg&quot; alt=&quot;Uzo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Landing page made for one of main fashion private sales site.&lt;/p&gt;
+
+&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/showroom/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/showroom/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/showroom/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/showroom/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/showroom/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/showroom/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;Screenshots of Showroomprive Landing Page&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://outletmoda.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>EDEA - Landing page</title>
    <link href="http://fausto.xyz/edea/"/>
    <updated>2014-10-01T00:00:00+01:00</updated>
@@ -550,28 +576,28 @@ To accomplish that, I did some research hoping that other confused people can co
  </entry>
  
  <entry>
-   <title>Uzo - Landing page</title>
-   <link href="http://fausto.xyz/uzo/"/>
-   <updated>2014-02-20T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/uzo</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/uzo/login.jpg&quot; alt=&quot;Uzo&quot; /&gt;&lt;/p&gt;
+   <title>ISPA - Landing page</title>
+   <link href="http://fausto.xyz/ispa/"/>
+   <updated>2014-03-15T00:00:00+00:00</updated>
+   <id>http://fausto.xyz/ispa</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/ispa/login.jpg&quot; alt=&quot;Uzo&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Landing page made for one brand of the main Portuguese phone companies.&lt;/p&gt;
+&lt;p&gt;Landing page made for one main psychology university in Portugal.&lt;/p&gt;
 
 &lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
     
-    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/ispa/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/ispa/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
     
-    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/ispa/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/ispa/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
     
-    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/uzo/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/ispa/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/ispa/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
     
-    &lt;figcaption&gt;Screenshots of UZO Landing Page&lt;/figcaption&gt;
+    &lt;figcaption&gt;Screenshots of Ispa Landing Page&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;You can find the landing page &lt;a href=&quot;http://uzo.cartaogratis.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://ispa.cursos-imf.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
