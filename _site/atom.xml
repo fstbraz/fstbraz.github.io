@@ -4,7 +4,7 @@
  <title>Fausto</title>
  <link href="http://fausto.xyz/atom.xml" rel="self"/>
  <link href="http://fausto.xyz"/>
- <updated>2016-09-06T17:39:08+01:00</updated>
+ <updated>2016-09-06T17:40:50+01:00</updated>
  <id>http://fausto.xyz</id>
  <author>
    <name></name>
@@ -140,7 +140,7 @@ If it fails you can try with the next command:&lt;/p&gt;
    <link href="http://fausto.xyz/rangel/"/>
    <updated>2015-12-01T00:00:00+00:00</updated>
    <id>http://fausto.xyz/rangel</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/login.jpg&quot; alt=&quot;Rangel Logo&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/login.jpg&quot; alt=&quot;Rangel Logo&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Web app dashboard made for one Portuguese international freight company. The objective was build a management and bidding system that can share all the transport opportunites brought from a intern enterprise team to take the maximum profit for the company.&lt;/p&gt;
 
