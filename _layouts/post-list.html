@@ -22,16 +22,19 @@ title: Posts
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
-                <div class="post-list">
+                <div itemscope itemtype="http://schema.org/BreadcrumbList" class="post-list">
+                {% assign counter = 1 %}
                     {% for post in site.posts %} 
+                        {% assign counter=counter | plus:1 %}
                         {% if post.project == null %}
-                    <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
-                        </li>
-                    </ul>
+                            <ul>
+                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="wow fadeInLeft" data-wow-duration="1.5s">
+                                    <a itemprop="item" class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                                    <p itemprop="name"> {{ post.excerpt }}</p>
+                                    <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                                     <meta itemprop="position" content="{{ counter }}" />
+                                </li>
+                            </ul>
                         {% endif %}
                     {% endfor %}
                 </div>

@@ -2,7 +2,7 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{% if page.title %}{{ page.title }}{% endif %} {% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}{% endif %}">
+    <meta name="description" content="{% if page.title %}{{ page.title }}{% endif %} {% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}{% endif %}">
     <meta name="google-site-verification" content="9cGr1Uhbi4ahl_wbUtjIE_SB40g4YRpYUasVzzkR1D0" />
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     <!-- Twitter Cards -->

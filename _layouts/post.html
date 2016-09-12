@@ -40,6 +40,33 @@ layout: compress
         </div>
         {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
     </header>
+     <script type="application/ld+json">
+    {
+     "@context": "http://schema.org",
+     "@type": "BreadcrumbList",
+     "itemListElement":
+     [
+      {
+       "@type": "ListItem",
+      "position": 1,
+      "item":
+       {
+         "@id": "{{ site.url }}/posts",
+         "name": "Posts"
+       }
+      },
+      {
+       "@type": "ListItem",
+      "position": 2,
+      "item":
+       {
+         "@id": "{{ site.url }}/projects",
+         "name": "Posts"
+       }
+      }
+     ]
+    }
+    </script>
     {% include scripts.html %}
     {% if site.mathjax == true %}
     <!-- MathJax -->
