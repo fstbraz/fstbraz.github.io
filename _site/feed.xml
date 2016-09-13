@@ -1,4 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://fausto.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fausto.xyz/" rel="alternate" type="text/html" /><updated>2016-09-12T14:40:00+01:00</updated><id>http://fausto.xyz/</id><title>Fausto</title><entry><title>Laravel Homestead on Mac osx</title><link href="http://fausto.xyz/laravel-homestead-on-mac-osx/" rel="alternate" type="text/html" title="Laravel Homestead on Mac osx" /><published>2016-02-06T00:00:00+00:00</published><updated>2016-02-06T00:00:00+00:00</updated><id>http://fausto.xyz/laravel-homestead-on-mac-osx</id><content type="html" xml:base="http://fausto.xyz/laravel-homestead-on-mac-osx/">&lt;p&gt;With a perfect dev enviroment in mind, I’ve decided to get my hands on &lt;a href=&quot;https://laravel.com/docs/5.1/homestead&quot;&gt;Laravel Homestead&lt;/a&gt;, because it’s a complete and easy configurable LEMP virtual machine that run’s on &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, so what you see next is a little guide how to configure and run a Homestead machine on Mac Osx 10.10.5.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://fausto.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fausto.xyz/" rel="alternate" type="text/html" /><updated>2016-09-13T11:33:08+01:00</updated><id>http://fausto.xyz/</id><title>Fausto</title><entry><title>Installing Python on Mac osx</title><link href="http://fausto.xyz/installing-python-on-mac-osx/" rel="alternate" type="text/html" title="Installing Python on Mac osx" /><published>2016-09-13T00:00:00+01:00</published><updated>2016-09-13T00:00:00+01:00</updated><id>http://fausto.xyz/installing-python-on-mac-osx</id><content type="html" xml:base="http://fausto.xyz/installing-python-on-mac-osx/">&lt;p&gt;El Capitan already ships with a version of Python that is great for learning but it’s not good for development. 
+So for learning Python, in a stable way, first you have to set up your dev enviroment, what you see next is the complete set up to put python 2.7 rocking on Mac osx El Capitan.&lt;/p&gt;
+
+&lt;h3 id=&quot;installing-homebrewhttpbrewsh&quot;&gt;1. &lt;a href=&quot;http://brew.sh/&quot;&gt;Installing Homebrew&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;(If you have this awesome package manager installed and configured, you can skip this step).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;/usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;installing-python&quot;&gt;2. Installing Python&lt;/h3&gt;
+
+&lt;p&gt;Now you can just simple install Python:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;brew install python&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The download has started.
+The installation will be complete in two minutes.&lt;/p&gt;
+
+&lt;h3 id=&quot;setuptool-e-pip-configuration&quot;&gt;3. Setuptool e Pip configuration&lt;/h3&gt;
+
+&lt;p&gt;Homebrew automatically set up and install Setuptools e Pip.&lt;/p&gt;
+
+&lt;p&gt;Setuptolls lets you install and download any compatible and compliant Python software with a nice command &lt;code class=&quot;highlighter-rouge&quot;&gt;easy_install&lt;/code&gt;. Also it can enables network installation capability to your own Python software with a few lines of code.&lt;/p&gt;
+
+&lt;p&gt;Pip is like a superior package manager for Python, that is more recommended an actively maintained than &lt;code class=&quot;highlighter-rouge&quot;&gt;easy_install&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;virtual-enviroments&quot;&gt;4. Virtual Enviroments&lt;/h3&gt;
+
+&lt;p&gt;A virtual enviroment is a Python tool to keep the dependecies of the different projects in diferent places, by using virtual generated enviroments for them. It’s the problem solver for version conflicts and keeps global site packages clean and in order.&lt;/p&gt;
+
+&lt;p&gt;We can start to install the virtual env via pip:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;pip install virtualenv&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now we can create a directory and a virtual enviroment for the project:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;cd project_folder
+virtualenv penv&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;virtualenv penv&lt;/code&gt; will create a folder in the project_folder directory which will contain all the Python files, and a copy of the pip library that we can use to install other Python packages.If we omitt the name &lt;code class=&quot;highlighter-rouge&quot;&gt;penv&lt;/code&gt;, files will be plced in the current directory instead.&lt;/p&gt;
+
+&lt;p&gt;At this moment the virtual enviroment need to be activated, we can just do:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;source penv/bin/activate&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We will see the name of the active virtual enviroment on the left of the prompt to let you know that the enviroment it’s active, and from now on any package installed with Pip will be placed in ‘penv’ folder isolated from the global Python installation.&lt;/p&gt;
+
+&lt;p&gt;When your work ins the vurtual enviroment is done, you can deactivate it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;deactivate&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can delete a virtual enviroment, like a normal Linux file just doing&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;rm -rf penv&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;virtual-enviroments-tips&quot;&gt;5. Virtual Enviroments tips&lt;/h3&gt;
+
+&lt;p&gt;You can run &lt;code class=&quot;highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; using the option &lt;strong&gt;–no-site-packages&lt;/strong&gt;, this will not require all the packages that are installed globally, so it can be useful for keeping track and clean the package list.&lt;br /&gt;
+For later review the installed packages you can “freeze” the current state of used packages by doing:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;pip freeze &amp;gt; packages.txt&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That command will generate a packages.txt containg the list of all packages in the current enviroment. later a different devolper can do:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;pin install -r packages.txt&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will ensure the consistency of all packages used in the development.&lt;/p&gt;
+
+&lt;h4 id=&quot;virtualenvwrapper&quot;&gt;virtualenvwrapper&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://virtualenvwrapper.readthedocs.io/en/latest/index.html&quot;&gt;virtualenvwrapper&lt;/a&gt; can ensure a more uniform and pleasent workflow when using virtula enviroments.&lt;/p&gt;
+
+&lt;p&gt;To install you have to have &lt;strong&gt;virtualenv&lt;/strong&gt; installed.&lt;/p&gt;
+
+&lt;p&gt;You can find the install instruction &lt;a href=&quot;http://virtualenvwrapper.readthedocs.io/en/latest/install.html&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that you can simple do:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;mkvirtualenv penv&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This creates the venv folder inside ~/Envs.&lt;/p&gt;
+
+&lt;p&gt;Work on a virtual enviroment:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;workon penv&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Delete a virtual enviroment:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;rmvirtualenv penv&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;List all the enviroments:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;lsvirtualenv&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Like you could see Pyhton as nice tolos to make the life of a Developer simple. Can wait to dive more further in the Python world.&lt;/p&gt;</content><category term="python" /><category term="mac" /><category term="osx" /><category term="virtual enviroment" /><summary>When trying to learn python, the first step is to set up the best dev enviroment.</summary></entry><entry><title>Laravel Homestead on Mac osx</title><link href="http://fausto.xyz/laravel-homestead-on-mac-osx/" rel="alternate" type="text/html" title="Laravel Homestead on Mac osx" /><published>2016-02-06T00:00:00+00:00</published><updated>2016-02-06T00:00:00+00:00</updated><id>http://fausto.xyz/laravel-homestead-on-mac-osx</id><content type="html" xml:base="http://fausto.xyz/laravel-homestead-on-mac-osx/">&lt;p&gt;With a perfect dev enviroment in mind, I’ve decided to get my hands on &lt;a href=&quot;https://laravel.com/docs/5.1/homestead&quot;&gt;Laravel Homestead&lt;/a&gt;, because it’s a complete and easy configurable LEMP virtual machine that run’s on &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, so what you see next is a little guide how to configure and run a Homestead machine on Mac Osx 10.10.5.&lt;/p&gt;
 
 &lt;h3 id=&quot;install-virtualbox-and-vagrant&quot;&gt;1. Install VirtualBox and Vagrant&lt;/h3&gt;
 
@@ -349,21 +469,4 @@ To accomplish that, I did some research hoping that other confused people can co
     &lt;figcaption&gt;Screenshots of Imf&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-imf.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="landing page" /><category term="Imf" /><category term="Portugal" /><summary>Landing Page for a Spanish business School</summary></entry><entry><title>Galileu - Landing page</title><link href="http://fausto.xyz/galileu/" rel="alternate" type="text/html" title="Galileu - Landing page" /><published>2015-03-15T00:00:00+00:00</published><updated>2015-03-15T00:00:00+00:00</updated><id>http://fausto.xyz/galileu</id><content type="html" xml:base="http://fausto.xyz/galileu/">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/login.jpg&quot; alt=&quot;Galileu&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Landing page made for one course of a portuguese education center called Galileu.&lt;/p&gt;
-
-&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-0.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-0.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-1.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-2.jpg&quot;&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/screen-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Screenshots of Galileu&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-redes-sistemas.galileu.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="landing page" /><category term="education" /><category term="Galileu" /><category term="Portugal" /><summary>Landing Page for a portuguese education center</summary></entry></feed>
+&lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-imf.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><category term="landing page" /><category term="Imf" /><category term="Portugal" /><summary>Landing Page for a Spanish business School</summary></entry></feed>
