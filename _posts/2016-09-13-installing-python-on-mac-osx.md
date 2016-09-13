@@ -4,7 +4,7 @@ title: "Installing Python on Mac osx"
 date: 2016-09-13
 excerpt: "When trying to learn python, the first step is to set up the best dev enviroment."
 tags: [python, mac, osx, virtual enviroment]
-feature: /assets/img/fulls/03.jpg
+feature: /assets/img/fulls/04.jpg
 comments: true
 ---
 
@@ -105,6 +105,6 @@ List all the enviroments:
 
 >lsvirtualenv
 
-Like you could see Pyhton as nice tolos to make the life of a Developer simple. Can wait to dive more further in the Python world.
+Like you could see Pyhton as nice tools to make the life of a Developer simple. Can wait to dive more further in the Python world.
 
 
