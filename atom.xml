@@ -12,7 +12,7 @@
    <name>{{ site.about }}</name>
    <email>{{ site.email  }}</email>
  </author>
-<id>{{site.url}}</id>
+
 
  {% for post in site.posts %}
  <entry>
