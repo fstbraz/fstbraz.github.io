@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Fausto</title>
+ <title>Web development - Fausto Braz</title>
  <link href="http://fausto.xyz/atom.xml" rel="self"/>
  <link href="http://fausto.xyz"/>
- <updated>2016-09-15T10:34:05+01:00</updated>
+ <updated>2016-09-20T16:46:23+01:00</updated>
  <id>http://fausto.xyz</id>
  <author>
    <name></name>
-   <email></email>
+   <email>fst.braz@gmail.com</email>
  </author>
+
 
  
  <entry>
    <title>Installing Python on Mac osx</title>
    <link href="http://fausto.xyz/installing-python-on-mac-osx/"/>
    <updated>2016-09-13T00:00:00+01:00</updated>
-   <id>http://fausto.xyz/installing-python-on-mac-osx</id>
+   <id>http://fausto.xyz/installing-python-on-mac-osx/</id>
    <content type="html">&lt;p&gt;El Capitan already ships with a version of Python that is great for learning but it’s not good for development. 
 So for learning Python, in a stable way, first you have to set up your dev enviroment, what you see next is the complete set up to put python 2.7 rocking on Mac osx El Capitan.&lt;/p&gt;
 
@@ -140,13 +141,14 @@ For later review the installed packages you can “freeze” the current state o
 &lt;p&gt;Like you could see Pyhton as nice tools to make the life of a Developer simple. Can wait to dive more further in the Python world.&lt;/p&gt;
 
 </content>
+   <summary>When trying to learn python, the first step is to set up the best dev enviroment.</summary>
  </entry>
  
  <entry>
    <title>Laravel Homestead on Mac osx</title>
    <link href="http://fausto.xyz/laravel-homestead-on-mac-osx/"/>
    <updated>2016-02-06T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/laravel-homestead-on-mac-osx</id>
+   <id>http://fausto.xyz/laravel-homestead-on-mac-osx/</id>
    <content type="html">&lt;p&gt;With a perfect dev enviroment in mind, I’ve decided to get my hands on &lt;a href=&quot;https://laravel.com/docs/5.1/homestead&quot;&gt;Laravel Homestead&lt;/a&gt;, because it’s a complete and easy configurable LEMP virtual machine that run’s on &lt;a href=&quot;https://www.vagrantup.com/&quot;&gt;Vagrant&lt;/a&gt;, so what you see next is a little guide how to configure and run a Homestead machine on Mac Osx 10.10.5.&lt;/p&gt;
 
 &lt;h3 id=&quot;install-virtualbox-and-vagrant&quot;&gt;1. Install VirtualBox and Vagrant&lt;/h3&gt;
@@ -263,13 +265,14 @@ If it fails you can try with the next command:&lt;/p&gt;
 
 &lt;p&gt;Go to &lt;code class=&quot;highlighter-rouge&quot;&gt;homestead.app&lt;/code&gt; in your browser, if you could see the the Laravel 5 page, you are ready to start coding your webapp.&lt;/p&gt;
 </content>
+   <summary>With a perfect dev enviroment in mind, I've decided to get my hands on Laravel Homestead.</summary>
  </entry>
  
  <entry>
    <title>Rangel - Custom critical</title>
    <link href="http://fausto.xyz/rangel/"/>
    <updated>2015-12-01T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/rangel</id>
+   <id>http://fausto.xyz/rangel/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/rangel/login.jpg&quot; alt=&quot;Rangel Logo&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Web app dashboard made for one Portuguese international freight company. The objective was build a management and bidding system that can share all the transport opportunites brought from a intern enterprise team to take the maximum profit for the company.&lt;/p&gt;
@@ -302,13 +305,14 @@ If it fails you can try with the next command:&lt;/p&gt;
 
 &lt;p&gt;You can find the online web application &lt;a href=&quot;http://critical.rangel.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Freight and transportation opportunites bidding web application for a international Portuguese company</summary>
  </entry>
  
  <entry>
    <title>Prestarte - Website</title>
    <link href="http://fausto.xyz/prestarte/"/>
    <updated>2015-12-01T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/prestarte</id>
+   <id>http://fausto.xyz/prestarte/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/prestarte/login.jpg&quot; alt=&quot;Prestarte&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Portuguese website made for an art auction company called Prestarte, the main objective was promoting the products and services that the enterprise provides.&lt;/p&gt;
@@ -341,13 +345,14 @@ If it fails you can try with the next command:&lt;/p&gt;
 
 &lt;p&gt;You can fin the online website &lt;a href=&quot;http://prestarte.pt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
+   <summary>Portuguese website and catalog for an art auction company</summary>
  </entry>
  
  <entry>
    <title>GNR - SG2S</title>
    <link href="http://fausto.xyz/gnr/"/>
    <updated>2015-12-01T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/gnr</id>
+   <id>http://fausto.xyz/gnr/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/gnr/login.jpg&quot; alt=&quot;SG2S Login&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Web app dashboard made for a Portuguese police and army force. The objective was the management of all means, militaries, and military occurrences separated by location and military force hierarchy with separate permissions.&lt;/p&gt;
@@ -380,13 +385,14 @@ If it fails you can try with the next command:&lt;/p&gt;
 
 &lt;p&gt;This application has sensitive and confidential information, so all the information contained in this screenshoots is dummy.&lt;/p&gt;
 </content>
+   <summary>Planning management and military occurrences system for Portuguese military force (GNR)</summary>
  </entry>
  
  <entry>
    <title>ENMC - Fuel inspections</title>
    <link href="http://fausto.xyz/enmc/"/>
    <updated>2015-12-01T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/enmc</id>
+   <id>http://fausto.xyz/enmc/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/enmc/login.jpg&quot; alt=&quot;ENMC Login&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Web app dashboard made for the Portuguese fuel market regulator. The objective was the management of all fuel and posts inspections&lt;/p&gt;
@@ -420,13 +426,14 @@ If it fails you can try with the next command:&lt;/p&gt;
 &lt;p&gt;You can find the online web application &lt;a href=&quot;http://extranet.stepahead.pt/enmc/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 </content>
+   <summary>Inspection management system for the Portuguese fuel market regulator</summary>
  </entry>
  
  <entry>
    <title>Caress natura - Landing page</title>
    <link href="http://fausto.xyz/caress-natura/"/>
    <updated>2015-11-20T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/caress-natura</id>
+   <id>http://fausto.xyz/caress-natura/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/caress/login.jpg&quot; alt=&quot;Caress Natura landing page&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing Page offering health and fitness consult from a Portuguese brand.&lt;/p&gt;
@@ -446,13 +453,14 @@ If it fails you can try with the next command:&lt;/p&gt;
 
 &lt;p&gt;You can find the landing page &lt;a href=&quot;http://oferta.caressnatura.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Landing Page for a Portuguese health and fitness brand</summary>
  </entry>
  
  <entry>
    <title>DNS configuration on GitHub Pages with Namecheap</title>
    <link href="http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/"/>
    <updated>2015-09-18T00:00:00+01:00</updated>
-   <id>http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap</id>
+   <id>http://fausto.xyz/DNS-configuration-on-GitHub-Pages-with-Namecheap/</id>
    <content type="html">&lt;p&gt;After submitting my site to GitHub and check that everuthing works in &lt;a href=&quot;/&quot;&gt;fstbraz.github.io&lt;/a&gt;, I didn’t know how to point to my recently purchased domain.
 To accomplish that, I did some research hoping that other confused people can configure their &lt;a href=&quot;http://www.namecheap.com/?aff=89940&quot;&gt;Namecheap&lt;/a&gt; on GitHub domain through this post.&lt;/p&gt;
 
@@ -484,13 +492,14 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;If you have no idea what a DNS is, you can check &lt;a href=&quot;https://support.google.com/a/answer/48090?hl=en&quot;&gt;this&lt;/a&gt; guide from Google.&lt;/p&gt;
 </content>
+   <summary>After submitting my site to GitHub and check that everything works, I didn't know how to point to my recently purchased domain. To accomplish that, I did some research hoping that other confused people can configure their on GitHub domain through this post.</summary>
  </entry>
  
  <entry>
    <title>DNS from Namecheap to Cloudflare on Github Pages</title>
    <link href="http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages/"/>
    <updated>2015-08-29T00:00:00+01:00</updated>
-   <id>http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages</id>
+   <id>http://fausto.xyz/DNS-from-Namecheap-to-Cloudflare-on-Github-Pages/</id>
    <content type="html">&lt;p&gt;Testing my website &lt;a href=&quot;/&quot;&gt;fausto.xyz&lt;/a&gt; on &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Google PageSpeed Insights&lt;/a&gt;, I’ve checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS for &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;CloudFlare&lt;/a&gt; to solve the problem. So, what’s next is the analysis and the solution.&lt;/p&gt;
 
 &lt;h3 id=&quot;what-is-the-problem&quot;&gt;1. What is the problem?&lt;/h3&gt;
@@ -547,13 +556,14 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;If you want to know more about all kind of DNS records, you can find good information in this article-&amp;gt; &lt;a href=&quot;http://support.dnsimple.com/articles/differences-between-a-cname-alias-url/&quot;&gt;Differences between the A, CNAME, ALIAS and URL records.&lt;/a&gt; by &lt;a href=&quot;https://dnsimple.com/&quot;&gt;DNSimple&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Testing my website I've checked that first byte delivery it was a bit delayed, after identifying the problem, I have the idea of transfering the DNS to solve the problem. So, what's next is the analysis and the solution.</summary>
  </entry>
  
  <entry>
    <title>Imf - Landing page</title>
    <link href="http://fausto.xyz/imf/"/>
    <updated>2015-06-20T00:00:00+01:00</updated>
-   <id>http://fausto.xyz/imf</id>
+   <id>http://fausto.xyz/imf/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/imf/login.jpg&quot; alt=&quot;Imf landing page&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one International spanish business school, that have schools in Portugal.&lt;/p&gt;
@@ -573,13 +583,14 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-imf.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Landing Page for a Spanish business School</summary>
  </entry>
  
  <entry>
    <title>Galileu - Landing page</title>
    <link href="http://fausto.xyz/galileu/"/>
    <updated>2015-03-15T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/galileu</id>
+   <id>http://fausto.xyz/galileu/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/galileu/login.jpg&quot; alt=&quot;Galileu&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one course of a portuguese education center called Galileu.&lt;/p&gt;
@@ -599,13 +610,14 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos-redes-sistemas.galileu.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Landing Page for a portuguese education center</summary>
  </entry>
  
  <entry>
    <title>Chery - Landing page</title>
    <link href="http://fausto.xyz/chery/"/>
    <updated>2015-01-12T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/chery</id>
+   <id>http://fausto.xyz/chery/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/chery/login.jpg&quot; alt=&quot;Chery&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing Page to get a free test drive for a Brasilian automotive industry brand.&lt;/p&gt;
@@ -625,13 +637,14 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;You can find the landing page &lt;a href=&quot;http://cherydrivemotion.com.br/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Landing Page for a Brasilian automotive industry brand</summary>
  </entry>
  
  <entry>
    <title>Showroomprive.com - Landing page</title>
    <link href="http://fausto.xyz/showroomprive/"/>
    <updated>2015-01-06T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/showroomprive</id>
+   <id>http://fausto.xyz/showroomprive/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/showroom/login.jpg&quot; alt=&quot;Uzo&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one of main fashion private sales site.&lt;/p&gt;
@@ -651,13 +664,14 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;You can find the landing page &lt;a href=&quot;http://outletmoda.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Landing Page for a fashion private sales site</summary>
  </entry>
  
  <entry>
    <title>EDEA - Landing page</title>
    <link href="http://fausto.xyz/edea/"/>
    <updated>2014-10-01T00:00:00+01:00</updated>
-   <id>http://fausto.xyz/edea</id>
+   <id>http://fausto.xyz/edea/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/edea/login.jpg&quot; alt=&quot;EDEA&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one course of a portuguese education center called EDEA.&lt;/p&gt;
@@ -677,13 +691,14 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;You can find the landing page &lt;a href=&quot;http://cursos.edea.pt/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Landing Page for a portuguese education center</summary>
  </entry>
  
  <entry>
    <title>Private Sport Shop - Landing page</title>
    <link href="http://fausto.xyz/private-sport-shop/"/>
    <updated>2014-06-23T00:00:00+01:00</updated>
-   <id>http://fausto.xyz/private-sport-shop</id>
+   <id>http://fausto.xyz/private-sport-shop/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/private/login.jpg&quot; alt=&quot;Private Sport Shop&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one French private sport shop website.&lt;/p&gt;
@@ -703,13 +718,14 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;You can find the landing page &lt;a href=&quot;http://offer-privatesportshop.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Landing Page for a French private sales website</summary>
  </entry>
  
  <entry>
    <title>ISPA - Landing page</title>
    <link href="http://fausto.xyz/ispa/"/>
    <updated>2014-03-15T00:00:00+00:00</updated>
-   <id>http://fausto.xyz/ispa</id>
+   <id>http://fausto.xyz/ispa/</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://fausto.xyz/assets/img/projects/ispa/login.jpg&quot; alt=&quot;Uzo&quot; class=&quot;login-img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Landing page made for one main psychology university in Portugal.&lt;/p&gt;
@@ -729,6 +745,7 @@ To accomplish that, I did some research hoping that other confused people can co
 
 &lt;p&gt;You can find the landing page &lt;a href=&quot;http://ispa.cursos-imf.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
+   <summary>Landing Page for a Portuguese university</summary>
  </entry>
  
  
