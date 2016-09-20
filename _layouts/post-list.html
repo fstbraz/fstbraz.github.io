@@ -28,7 +28,7 @@ title: Posts
                         {% assign counter=counter | plus:1 %}
                         {% if post.project == null %}
                             <ul>
-                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="wow fadeInLeft" data-wow-duration="1.5s">
+                                <li class="wow fadeInLeft" data-wow-duration="1.5s" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
                                     <a itemprop="item" class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                                     <p itemprop="name"> {{ post.excerpt }}</p>
                                     <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
