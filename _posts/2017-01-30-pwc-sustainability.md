@@ -20,7 +20,6 @@ comments: true
 
 {% capture images %}
 	{{ site.url }}/assets/img/projects/pwc/screen-0.jpg
-	{{ site.url }}/assets/img/projects/pwc/screen-1.jpg
 	{{ site.url }}/assets/img/projects/pwc/screen-2.jpg
 	{{ site.url }}/assets/img/projects/pwc/screen-3.jpg
 	{{ site.url }}/assets/img/projects/pwc/screen-4.jpg
