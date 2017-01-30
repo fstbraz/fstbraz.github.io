@@ -2,11 +2,11 @@
 layout: page
 title: About me
 tags: [about, Fausto, web, developer]
-date: 2016-08-19
+date: 2017-01-30
 comments: false
 ---
     
-<center>Lisbon based web developer</center>
+<center>Web developer</center>
 
 ## Skills
 * Photoshop
