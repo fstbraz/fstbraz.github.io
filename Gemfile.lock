@@ -73,7 +73,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.0)
+  jekyll (~> 3.6)
   jekyll-feed
   jekyll-gist
   jekyll-mentions
